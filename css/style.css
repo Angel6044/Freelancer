@@ -10,7 +10,7 @@
 /*Codigo de: https://www.paulirish.com/2012/box-sizing-border-box-ftw/*/
 /*Para solucionar problema de CSS Box Model*/
 /*Por Ejemplo: cuando queremos que la imagen tenga height: 450px y tenemos un padding: 20px*/
-/*entonces en total tenemos 490 px y no queremos que tenga 490px sino 450px*/
+/*entonces en total tenemos 490 px (40 px mas)*/
 html {
     box-sizing: border-box;
 }
